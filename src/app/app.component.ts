@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   display: any;
   center: google.maps.LatLngLiteral = {
       lat: 24,
-      lng: 12
+      lng: 13
   };
   zoom = 4;
   moveMap(event: google.maps.MapMouseEvent) {
